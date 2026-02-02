@@ -1,0 +1,14 @@
+D:\ITI\18.C#\lab\lab2-3\task8\bin\Debug\net10.0\task8.exe
+D:\ITI\18.C#\lab\lab2-3\task8\bin\Debug\net10.0\task8.deps.json
+D:\ITI\18.C#\lab\lab2-3\task8\bin\Debug\net10.0\task8.runtimeconfig.json
+D:\ITI\18.C#\lab\lab2-3\task8\bin\Debug\net10.0\task8.dll
+D:\ITI\18.C#\lab\lab2-3\task8\bin\Debug\net10.0\task8.pdb
+D:\ITI\18.C#\lab\lab2-3\task8\obj\Debug\net10.0\task8.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\18.C#\lab\lab2-3\task8\obj\Debug\net10.0\task8.AssemblyInfoInputs.cache
+D:\ITI\18.C#\lab\lab2-3\task8\obj\Debug\net10.0\task8.AssemblyInfo.cs
+D:\ITI\18.C#\lab\lab2-3\task8\obj\Debug\net10.0\task8.csproj.CoreCompileInputs.cache
+D:\ITI\18.C#\lab\lab2-3\task8\obj\Debug\net10.0\task8.dll
+D:\ITI\18.C#\lab\lab2-3\task8\obj\Debug\net10.0\refint\task8.dll
+D:\ITI\18.C#\lab\lab2-3\task8\obj\Debug\net10.0\task8.pdb
+D:\ITI\18.C#\lab\lab2-3\task8\obj\Debug\net10.0\task8.genruntimeconfig.cache
+D:\ITI\18.C#\lab\lab2-3\task8\obj\Debug\net10.0\ref\task8.dll
