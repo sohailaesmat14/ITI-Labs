@@ -1,0 +1,14 @@
+D:\ITI\18.C#\lab\lab2-3\task6\bin\Debug\net10.0\task6.exe
+D:\ITI\18.C#\lab\lab2-3\task6\bin\Debug\net10.0\task6.deps.json
+D:\ITI\18.C#\lab\lab2-3\task6\bin\Debug\net10.0\task6.runtimeconfig.json
+D:\ITI\18.C#\lab\lab2-3\task6\bin\Debug\net10.0\task6.dll
+D:\ITI\18.C#\lab\lab2-3\task6\bin\Debug\net10.0\task6.pdb
+D:\ITI\18.C#\lab\lab2-3\task6\obj\Debug\net10.0\task6.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\18.C#\lab\lab2-3\task6\obj\Debug\net10.0\task6.AssemblyInfoInputs.cache
+D:\ITI\18.C#\lab\lab2-3\task6\obj\Debug\net10.0\task6.AssemblyInfo.cs
+D:\ITI\18.C#\lab\lab2-3\task6\obj\Debug\net10.0\task6.csproj.CoreCompileInputs.cache
+D:\ITI\18.C#\lab\lab2-3\task6\obj\Debug\net10.0\task6.dll
+D:\ITI\18.C#\lab\lab2-3\task6\obj\Debug\net10.0\refint\task6.dll
+D:\ITI\18.C#\lab\lab2-3\task6\obj\Debug\net10.0\task6.pdb
+D:\ITI\18.C#\lab\lab2-3\task6\obj\Debug\net10.0\task6.genruntimeconfig.cache
+D:\ITI\18.C#\lab\lab2-3\task6\obj\Debug\net10.0\ref\task6.dll
