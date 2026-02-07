@@ -1,170 +1,132 @@
 using System;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Windows.Forms;
-using System.Windows.Forms.DataVisualization.Charting;
 
 namespace WinFormsApp1
 {
     public partial class Form1 : Form
     {
-        private Label lblCompanyName;
-        private Label lblReportTitle;
-        private DataGridView dgvData;
-        private Chart chartRevenue;
         private int[] years;
         private int[] revenues;
+        private Color lineColor;
+        private Point[] chartPoints;
 
         public Form1()
         {
             InitializeComponent();
-            SetupForm();
-            InitializeData();
-            CreateControls();
-            SetupChart();
-            PopulateGrid();
-        }
-
-        private void SetupForm()
-        {
             this.Text = "ABC Company Revenue";
             this.Size = new Size(900, 600);
-            this.KeyPreview = true;
+            this.DoubleBuffered = true;
+            this.Paint += new PaintEventHandler(Form1_Paint);
             this.KeyDown += new KeyEventHandler(Form1_KeyDown);
+            this.MouseClick += new MouseEventHandler(Form1_MouseClick);
+
+            years = new int[] { 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997 };
+            revenues = new int[] { 150, 170, 180, 175, 200, 250, 210, 240, 280, 140 };
+            lineColor = Color.Blue;
+            chartPoints = new Point[10];
         }
 
-        private void InitializeData()
+        private void Form1_Paint(object sender, PaintEventArgs e)
         {
-            years = new int[10];
-            years[0] = 1988;
-            years[1] = 1989;
-            years[2] = 1990;
-            years[3] = 1991;
-            years[4] = 1992;
-            years[5] = 1993;
-            years[6] = 1994;
-            years[7] = 1995;
-            years[8] = 1996;
-            years[9] = 1997;
+            Graphics g = e.Graphics;
 
-            revenues = new int[10];
-            revenues[0] = 150;
-            revenues[1] = 170;
-            revenues[2] = 180;
-            revenues[3] = 175;
-            revenues[4] = 200;
-            revenues[5] = 250;
-            revenues[6] = 210;
-            revenues[7] = 240;
-            revenues[8] = 280;
-            revenues[9] = 140;
+            string title = "ABC Company";
+            Font titleFont = new Font("Arial", 16, FontStyle.Bold);
+            SizeF titleSize = g.MeasureString(title, titleFont);
+            g.DrawString(title, titleFont, Brushes.Black, (this.ClientSize.Width - titleSize.Width) / 2, 20);
+
+            string subtitle = "Annual Revenue";
+            Font subFont = new Font("Arial", 12);
+            SizeF subSize = g.MeasureString(subtitle, subFont);
+            g.DrawString(subtitle, subFont, Brushes.Black, (this.ClientSize.Width - subSize.Width) / 2, 50);
+
+            DrawChart(g);
+            DrawTable(g);
         }
 
-        private void CreateControls()
+        private void DrawChart(Graphics g)
         {
-            lblCompanyName = new Label();
-            lblCompanyName.Text = "ABC Company";
-            lblCompanyName.Font = new Font("Arial", 16, FontStyle.Bold);
-            lblCompanyName.AutoSize = true;
-            lblCompanyName.Location = new Point(350, 20);
-            this.Controls.Add(lblCompanyName);
+            int chartX = 50;
+            int chartY = 450;
+            int chartWidth = 500;
+            int chartHeight = 300;
+            int barWidth = 30;
+            int gap = 15;
 
-            lblReportTitle = new Label();
-            lblReportTitle.Text = "Annual Revenue";
-            lblReportTitle.Font = new Font("Arial", 12);
-            lblReportTitle.AutoSize = true;
-            lblReportTitle.Location = new Point(360, 50);
-            this.Controls.Add(lblReportTitle);
+            g.DrawLine(Pens.Black, chartX, chartY, chartX + chartWidth, chartY);
+            g.DrawLine(Pens.Black, chartX, chartY, chartX, chartY - chartHeight);
 
-            dgvData = new DataGridView();
-            dgvData.Location = new Point(550, 100);
-            dgvData.Size = new Size(300, 400);
-            dgvData.ColumnCount = 2;
-            dgvData.Columns[0].Name = "Year";
-            dgvData.Columns[1].Name = "Revenue";
-            this.Controls.Add(dgvData);
+            g.DrawString("Revenue", SystemFonts.DefaultFont, Brushes.Black, chartX, chartY - chartHeight - 20);
+            g.DrawString("Years", SystemFonts.DefaultFont, Brushes.Black, chartX + chartWidth + 10, chartY);
 
-            chartRevenue = new Chart();
-            chartRevenue.Location = new Point(20, 100);
-            chartRevenue.Size = new Size(500, 400);
-            chartRevenue.MouseClick += new MouseEventHandler(chartRevenue_MouseClick);
-            this.Controls.Add(chartRevenue);
-        }
-
-        private void SetupChart()
-        {
-            ChartArea area;
-            area = new ChartArea();
-            area.AxisX.Title = "Years";
-            area.AxisY.Title = "Revenue";
-            chartRevenue.ChartAreas.Add(area);
-
-            Series barSeries;
-            barSeries = new Series();
-            barSeries.Name = "BarSeries";
-            barSeries.ChartType = SeriesChartType.Column;
-            barSeries.Color = Color.Red;
-            barSeries.BackHatchStyle = ChartHatchStyle.LightDownwardDiagonal;
-            chartRevenue.Series.Add(barSeries);
-
-            Series lineSeries;
-            lineSeries = new Series();
-            lineSeries.Name = "LineSeries";
-            lineSeries.ChartType = SeriesChartType.Line;
-            lineSeries.Color = Color.Blue;
-            lineSeries.BorderWidth = 3;
-            lineSeries.BorderDashStyle = ChartDashStyle.Solid;
-            chartRevenue.Series.Add(lineSeries);
+            HatchBrush barBrush = new HatchBrush(HatchStyle.LightDownwardDiagonal, Color.Red, Color.White);
+            Pen linePen = new Pen(lineColor, 3);
 
             for (int i = 0; i < years.Length; i++)
             {
-                barSeries.Points.AddXY(years[i], revenues[i]);
-                lineSeries.Points.AddXY(years[i], revenues[i]);
+                int xVal = chartX + 20 + i * (barWidth + gap);
+                int barHeight = revenues[i];
+                int yVal = chartY - barHeight;
+
+                g.FillRectangle(barBrush, xVal, yVal, barWidth, barHeight);
+                g.DrawRectangle(Pens.Black, xVal, yVal, barWidth, barHeight);
+
+                chartPoints[i] = new Point(xVal + barWidth / 2, yVal);
+
+                g.DrawString(years[i].ToString(), SystemFonts.DefaultFont, Brushes.Black, xVal, chartY + 5);
             }
+
+            g.DrawLines(linePen, chartPoints);
         }
 
-        private void PopulateGrid()
+        private void DrawTable(Graphics g)
         {
+            int tableX = 600;
+            int tableY = 100;
+            int rowHeight = 30;
+            int colWidth = 80;
+
+            g.DrawRectangle(Pens.Black, tableX, tableY, colWidth * 2, rowHeight * (years.Length + 1));
+
+            g.DrawString("Year", SystemFonts.DefaultFont, Brushes.Black, tableX + 5, tableY + 8);
+            g.DrawString("Revenue", SystemFonts.DefaultFont, Brushes.Black, tableX + colWidth + 5, tableY + 8);
+            g.DrawLine(Pens.Black, tableX, tableY + rowHeight, tableX + colWidth * 2, tableY + rowHeight);
+            g.DrawLine(Pens.Black, tableX + colWidth, tableY, tableX + colWidth, tableY + rowHeight * (years.Length + 1));
+
             for (int i = 0; i < years.Length; i++)
             {
-                dgvData.Rows.Add(years[i], revenues[i]);
+                int currentY = tableY + (i + 1) * rowHeight;
+                g.DrawString(years[i].ToString(), SystemFonts.DefaultFont, Brushes.Black, tableX + 5, currentY + 8);
+                g.DrawString(revenues[i].ToString(), SystemFonts.DefaultFont, Brushes.Black, tableX + colWidth + 5, currentY + 8);
+                g.DrawLine(Pens.Black, tableX, currentY + rowHeight, tableX + colWidth * 2, currentY + rowHeight);
             }
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            Series lineSeries;
-            lineSeries = chartRevenue.Series["LineSeries"];
-
             if (e.Control && e.KeyCode == Keys.R)
-            {
-                lineSeries.Color = Color.Red;
-            }
+                lineColor = Color.Red;
             else if (e.Control && e.KeyCode == Keys.G)
-            {
-                lineSeries.Color = Color.Green;
-            }
+                lineColor = Color.Green;
             else if (e.Control && e.KeyCode == Keys.B)
-            {
-                lineSeries.Color = Color.Blue;
-            }
+                lineColor = Color.Blue;
+
+            this.Invalidate();
         }
 
-        private void chartRevenue_MouseClick(object sender, MouseEventArgs e)
+        private void Form1_MouseClick(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
             {
-                HitTestResult result;
-                result = chartRevenue.HitTest(e.X, e.Y);
-
-                if (result.ChartElementType == ChartElementType.DataPoint)
+                for (int i = 0; i < chartPoints.Length; i++)
                 {
-                    double xValue;
-                    xValue = result.Series.Points[result.PointIndex].XValue;
-
-                    double yValue;
-                    yValue = result.Series.Points[result.PointIndex].YValues[0];
-
-                    MessageBox.Show("Revenue: " + yValue + "\nYear: " + xValue);
+                    if (Math.Abs(e.X - chartPoints[i].X) < 15 && Math.Abs(e.Y - chartPoints[i].Y) < 15)
+                    {
+                        MessageBox.Show("Year: " + years[i] + "\nRevenue: " + revenues[i]);
+                        return;
+                    }
                 }
             }
         }
