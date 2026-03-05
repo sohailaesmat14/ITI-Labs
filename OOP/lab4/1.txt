@@ -1,0 +1,41 @@
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+    int arr[5][4];//5 for products and 4 for sales man
+    int i, j , totalPrice[4]={0} , productPrice[5]={0};
+    for (i=0;i<4;i++){//i for coulmns for sales man
+        for(j=0;j<5;j++){//j for rows for products price
+            cout<<"Enter the price of product "<<j+1<<" for salesman "<<i+1<<" : ";
+            cin>>arr[j][i];
+            totalPrice[i] += arr[j][i];
+        }
+    }
+    for(i=0;i<5;i++){
+        for(j=0;j<4;j++){
+            productPrice[i]+=arr[i][j];
+        }
+    }
+    cout <<endl<<endl<<"\t\t\t";
+    for(i=0;i<4;i++){
+        cout<<"salesman "<<i+1<<"\t";
+    }
+    cout <<"productPrice";
+    cout<<endl;
+    for(i=0;i<5;i++){
+        cout<<"product "<<i+1<<"\t\t";
+        for(j=0;j<4;j++){
+            cout<<arr[i][j]<<"\t\t";
+        }
+        cout<<productPrice[i];
+        cout<<endl;
+    }
+    cout<<"totalPrice"<<"\t\t";
+    for(i=0;i<4;i++){
+        cout<<totalPrice[i]<<"\t\t";
+    }
+
+    return 0;
+}
