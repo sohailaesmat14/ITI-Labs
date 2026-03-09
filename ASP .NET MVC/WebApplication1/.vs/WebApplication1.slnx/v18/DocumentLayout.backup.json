@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|d:\\iti\\20.asp.net core mvc\\asp.net core mvc\\new folder\\webapplication1\\webapplication1\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\student\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|d:\\iti\\20.asp.net core mvc\\asp.net core mvc\\new folder\\webapplication1\\webapplication1\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|d:\\iti\\20.asp.net core mvc\\asp.net core mvc\\new folder\\webapplication1\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|d:\\iti\\20.asp.net core mvc\\asp.net core mvc\\new folder\\webapplication1\\webapplication1\\repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|d:\\iti\\20.asp.net core mvc\\asp.net core mvc\\new folder\\webapplication1\\webapplication1\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|d:\\iti\\20.asp.net core mvc\\asp.net core mvc\\new folder\\webapplication1\\webapplication1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|d:\\iti\\20.asp.net core mvc\\asp.net core mvc\\new folder\\webapplication1\\webapplication1\\repositories\\istudentcourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repositories\\istudentcourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|d:\\iti\\20.asp.net core mvc\\asp.net core mvc\\new folder\\webapplication1\\webapplication1\\views\\studentcourse\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\studentcourse\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|d:\\iti\\20.asp.net core mvc\\asp.net core mvc\\new folder\\webapplication1\\webapplication1\\views\\studentcourse\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\studentcourse\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|d:\\iti\\20.asp.net core mvc\\asp.net core mvc\\new folder\\webapplication1\\webapplication1\\controllers\\studentcoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\studentcoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|d:\\iti\\20.asp.net core mvc\\asp.net core mvc\\new folder\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|d:\\iti\\20.asp.net core mvc\\asp.net core mvc\\new folder\\webapplication1\\webapplication1\\repositories\\studentcourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\repositories\\studentcourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|d:\\iti\\20.asp.net core mvc\\asp.net core mvc\\new folder\\webapplication1\\webapplication1\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49BCB418-0B5E-401C-A577-6B2323A0DC92}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Student\\Index.cshtml",
+              "ToolTip": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-03T13:14:56.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Views\\Student\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Student\\Details.cshtml",
+              "ToolTip": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Views\\Student\\Details.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Student\\Details.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswBIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-03T13:09:08.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\StudentRepository.cs",
+              "ToolTip": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repositories\\StudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T13:06:59.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Repositories\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\IStudentRepository.cs",
+              "ToolTip": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Repositories\\IStudentRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repositories\\IStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T13:06:34.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswBwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-03T13:00:45.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Views\\StudentCourse\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\StudentCourse\\Create.cshtml",
+              "ToolTip": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Views\\StudentCourse\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\StudentCourse\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvyQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-03T13:00:25.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Views\\StudentCourse\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\StudentCourse\\Index.cshtml",
+              "ToolTip": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Views\\StudentCourse\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\StudentCourse\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-03T13:00:02.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentCourseController.cs",
+              "DocumentMoniker": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Controllers\\StudentCourseController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\StudentCourseController.cs",
+              "ToolTip": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Controllers\\StudentCourseController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\StudentCourseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T12:58:47.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T12:58:15.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StudentCourseRepository.cs",
+              "DocumentMoniker": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Repositories\\StudentCourseRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\StudentCourseRepository.cs",
+              "ToolTip": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Repositories\\StudentCourseRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repositories\\StudentCourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T12:58:01.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IStudentCourseRepository.cs",
+              "DocumentMoniker": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Repositories\\IStudentCourseRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\IStudentCourseRepository.cs",
+              "ToolTip": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Repositories\\IStudentCourseRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repositories\\IStudentCourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T12:57:31.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T12:54:15.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Student\\Create.cshtml",
+              "ToolTip": "D:\\ITI\\20.ASP.NET Core MVC\\ASP.NET Core MVC\\New folder\\WebApplication1\\WebApplication1\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Student\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-03T12:51:41.064Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

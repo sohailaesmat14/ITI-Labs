@@ -1,0 +1,37 @@
+﻿@model WebApplication1.Models.StudentCourse
+
+<div class="container mt-5">
+    <div class="card shadow col-md-6 mx-auto">
+        <div class="card-header bg-primary text-white"><h3>Assign Grade to Student</h3></div>
+        <div class="card-body">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3 fw-bold"></div>
+
+                <div class="mb-3">
+                    <label asp-for="StudentId" class="form-label fw-bold">Select Student</label>
+                    <select asp-for="StudentId" class="form-select" asp-items="ViewBag.Students">
+                        <option value="">-- Choose Student --</option>
+                    </select>
+                    <span asp-validation-for="StudentId" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="CourseId" class="form-label fw-bold">Select Course</label>
+                    <select asp-for="CourseId" class="form-select" asp-items="ViewBag.Courses">
+                        <option value="">-- Choose Course --</option>
+                    </select>
+                    <span asp-validation-for="CourseId" class="text-danger"></span>
+                </div>
+
+                <div class="mb-4">
+                    <label asp-for="Degree" class="form-label fw-bold">Degree (Score)</label>
+                    <input asp-for="Degree" type="number" step="0.01" class="form-control" placeholder="e.g. 95.50" />
+                    <span asp-validation-for="Degree" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-success px-4">Save Grade</button>
+                <a asp-action="Index" class="btn btn-secondary ms-2">Back to List</a>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+﻿@model IEnumerable<WebApplication1.Models.StudentCourse>
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2>Students Grades</h2>
+        <a asp-action="Create" class="btn btn-primary">Assign New Grade</a>
+    </div>
+
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Student Name</th>
+                <th>Course Title</th>
+                <th>Degree</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Student.Name</td>
+                    <td>@item.Course.Title</td>
+                    <td><span class="badge bg-success fs-6">@item.Degree</span></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
