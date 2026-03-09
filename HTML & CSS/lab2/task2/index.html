@@ -1,0 +1,32 @@
+<!-- form " array of objects " + submit "table[display all users + delete specific user] + button back to form -->
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h3>User Registration</h3>
+    <input type="text" id="username" placeholder="Name">
+    <input type="number" id="userage" placeholder="Age">
+    <button onclick="addUser()">Submit</button>
+    <script>
+        function addUser() {
+            let name = document.getElementById("username").value;
+            let age = document.getElementById("userage").value;
+
+            if (name && age) {
+                let newUser = { name: name, age: age };
+                let users = JSON.parse(localStorage.getItem("usersList")) || [];
+                users.push(newUser);
+                localStorage.setItem("usersList", JSON.stringify(users));
+
+                window.location.href = "table.html";
+            }
+        }
+    </script>
+
+</body>
+</html>

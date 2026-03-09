@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table, th, td { border: 1px solid black; border-collapse: collapse; padding: 10px; }
+    </style>
+</head>
+<body>
+    <h3>All Users</h3>
+    <button onclick="goBack()">Back to Form</button>
+    <br><br>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+
+    <script>
+        function showTable() {
+            let users = JSON.parse(localStorage.getItem("usersList")) || [];
+            let tableBody = document.getElementById("tableBody");
+            tableBody.innerHTML = "";
+
+            for (let i = 0; i < users.length; i++) {
+                let row = `<tr>
+                    <td>${users[i].name}</td>
+                    <td>${users[i].age}</td>
+                    <td><button onclick="deleteUser(${i})">Delete</button></td>
+                </tr>`;
+                tableBody.innerHTML += row;
+            }
+        }
+
+        function deleteUser(index) {
+            let users = JSON.parse(localStorage.getItem("usersList"));
+            users.splice(index, 1);
+            localStorage.setItem("usersList", JSON.stringify(users));
+            showTable();
+        }
+
+        function goBack() {
+            window.location.href = "index.html";
+        }
+
+        showTable();
+    </script>
+
+</body>
+</html>

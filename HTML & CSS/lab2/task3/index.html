@@ -1,0 +1,43 @@
+<!-- implement two worker "calc , fetch" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h3>Web Workers</h3>
+    <button onclick="runCalc()">Run Calculation</button>
+    <p id="calcResult">Result will appear here...</p>
+
+    <button onclick="runFetch()">Run Fetch</button>
+    <p id="fetchResult">Data will appear here...</p>
+
+    <script>
+        function runCalc() {
+            const w1 = new Worker("worker1.js");
+            document.getElementById("calcResult").innerHTML = "Calculating...";
+            w1.postMessage("start");
+            
+            w1.onmessage = function(e) {
+                document.getElementById("calcResult").innerHTML = e.data;
+                w1.terminate();
+            };
+        }
+
+        function runFetch() {
+            const w2 = new Worker("worker2.js");
+            document.getElementById("fetchResult").innerHTML = "Loading...";
+            w2.postMessage("start");
+
+            w2.onmessage = function(e) {
+                document.getElementById("fetchResult").innerHTML = JSON.stringify(e.data);
+                w2.terminate();
+            };
+        }
+    </script>
+
+</body>
+</html>

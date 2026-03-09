@@ -1,0 +1,39 @@
+<!-- share live location (watchPosition / clearWatch) + map will open in the same tab -->
+<!DOCTYPE html>
+<html>
+<body>
+
+    <button onclick="startWatch()">Start Watching</button>
+    <button onclick="stopWatch()">Stop Watching</button>
+    <br><br>
+    <iframe id="mapFrame" width="100%" height="400" frameborder="0"></iframe>
+    <script>
+        let watchID;
+        let options={
+            enableHightAcceuracy : true,
+        };
+        function startWatch() {
+            if(navigator.geolocation) {
+                watchID = navigator.geolocation.watchPosition(showpos, showError,options);
+            }
+        }
+
+        function showpos(e) {
+            let lat = e.coords.latitude;
+            let long = e.coords.longitude;
+            let mapURL = "https://maps.google.com/maps?q=" + lat + "," + long + "&z=15&output=embed";
+            document.getElementById("mapFrame").src = mapURL;
+        }
+
+        function stopWatch() {
+            if(watchID) {
+                navigator.geolocation.clearWatch(watchID);
+            }
+        }
+
+        function showError(error) {
+            console.log(error.message);
+        }
+    </script>
+</body>
+</html>
