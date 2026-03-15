@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Snow World</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+
+    <nav>
+      <div class="nav-item">
+        <button class="nav-btn" data-target="about">About</button>
+      </div>
+
+      <div class="nav-item">
+        <button class="nav-btn" data-target="gallery">Gallery</button>
+      </div>
+
+      <!-- Services: nav dropdown -->
+      <div class="nav-item">
+        <button class="nav-btn" id="servicesBtn">Services <span class="drop-arrow">▼</span></button>
+        <div id="services-dropdown">
+          <ul>
+            <li>❄️ &nbsp; Snow Sculpture Design</li>
+            <li>⛄ &nbsp; Custom Snowman Building</li>
+            <li>🎿 &nbsp; Winter Activity Planning</li>
+            <li>📸 &nbsp; Snow Photography Sessions</li>
+            <li>🎁 &nbsp; Holiday Gift Packages</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <button class="nav-btn" data-target="complain">Complain</button>
+      </div>
+    </nav>
+
+    <!-- ABOUT -->
+    <div id="about" class="section">
+      <div class="card">
+        <h2 class="section-title">About</h2>
+        <p>Hello World</p>
+      </div>
+    </div>
+
+    <!-- GALLERY -->
+    <div id="gallery" class="section">
+      <div class="card">
+        <h2 class="section-title">Gallery</h2>
+        <div class="gallery-wrap">
+          <img class="gallery-img active" src="1.jpg" alt="Snowman 1"/>
+          <img class="gallery-img" src="2.jpg" alt="Snowman 2"/>
+          <img class="gallery-img" src="3.jpg" alt="Snowman 3"/>
+          <img class="gallery-img" src="4.jpg" alt="Snowman 4"/>
+          <img class="gallery-img" src="5.jpg" alt="Snowman 5"/>
+          <img class="gallery-img" src="6.jpg" alt="Snowman 6"/>
+          <img class="gallery-img" src="7.jpg" alt="Snowman 7"/>
+          <img class="gallery-img" src="8.jpg" alt="Snowman 8"/>
+          <div class="gallery-controls">
+            <button class="arrow-btn" id="prevBtn"><img src="left.png" alt="Previous"/></button>
+            <span class="gallery-counter" id="galleryCounter">1 / 8</span>
+            <button class="arrow-btn" id="nextBtn"><img src="right.png" alt="Next"/></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- COMPLAIN -->
+    <div id="complain" class="section">
+      <div class="card">
+        <h2 class="section-title">Complain</h2>
+
+        <div id="complainForm">
+          <div class="complain-form">
+            <div class="field-row">
+              <label for="cName">Name</label>
+              <input type="text" id="cName" placeholder="Your name"/>
+            </div>
+            <div class="field-row">
+              <label for="cEmail">Email</label>
+              <input type="email" id="cEmail" placeholder="your@email.com"/>
+            </div>
+            <div class="field-row">
+              <label for="cPhone">Phone</label>
+              <input type="text" id="cPhone" placeholder="01234567890"/>
+            </div>
+            <p class="complain-label">Complain</p>
+            <textarea id="cComplain" placeholder="Write your complain here..."></textarea>
+            <button class="send-btn" id="sendBtn">send</button>
+          </div>
+        </div>
+
+        <div class="preview-box" id="previewBox">
+          <p>Your complain is <strong id="pvComplain"></strong></p>
+          <p>Your name is <strong id="pvName"></strong></p>
+          <p>Your email is <strong id="pvEmail"></strong></p>
+          <p>Your phone is <strong id="pvPhone"></strong></p>
+          <button class="edit-btn" id="editBtn">Back to edit</button>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /wrapper -->
+
+<script>
+$(function(){
+
+  /* ── NAV: About, Gallery, Complain ── */
+  $('.nav-btn[data-target]').on('click', function(){
+    var target = $(this).data('target');
+    // close services dropdown
+    $('#services-dropdown').removeClass('open');
+    $('#servicesBtn').removeClass('active');
+    // update active button
+    $('.nav-btn').removeClass('active');
+    $(this).addClass('active');
+    // show section
+    $('.section').removeClass('visible');
+    $('#' + target).addClass('visible');
+  });
+
+  /* ── SERVICES: toggle dropdown ── */
+  $('#servicesBtn').on('click', function(e){
+    e.stopPropagation();
+    var isOpen = $('#services-dropdown').hasClass('open');
+    // hide any open section
+    $('.nav-btn[data-target]').removeClass('active');
+    $('.section').removeClass('visible');
+    // toggle
+    if(isOpen){
+      $('#services-dropdown').removeClass('open');
+      $(this).removeClass('active');
+    } else {
+      $('#services-dropdown').addClass('open');
+      $(this).addClass('active');
+    }
+  });
+
+  /* close dropdown when clicking anywhere outside */
+  $(document).on('click', function(){
+    $('#services-dropdown').removeClass('open');
+    $('#servicesBtn').removeClass('active');
+  });
+
+  /* ── GALLERY ── */
+  var $imgs   = $('.gallery-img');
+  var total   = $imgs.length;
+  var current = 0;
+
+  function showImg(idx){
+    $imgs.removeClass('active');
+    $imgs.eq(idx).addClass('active');
+    $('#galleryCounter').text((idx + 1) + ' / ' + total);
+  }
+
+  $('#nextBtn').on('click', function(){
+    current = (current + 1) % total;
+    showImg(current);
+  });
+
+  $('#prevBtn').on('click', function(){
+    current = (current - 1 + total) % total;
+    showImg(current);
+  });
+
+  /* ── COMPLAIN ── */
+  $('#sendBtn').on('click', function(){
+    var name     = $('#cName').val().trim();
+    var email    = $('#cEmail').val().trim();
+    var phone    = $('#cPhone').val().trim();
+    var complain = $('#cComplain').val().trim();
+
+    if(!name || !email || !phone || !complain){
+      alert('Please fill in all fields before sending.');
+      return;
+    }
+
+    $('#pvName').text(name);
+    $('#pvEmail').text(email);
+    $('#pvPhone').text(phone);
+    $('#pvComplain').text(complain);
+
+    $('#complainForm').hide();
+    $('#previewBox').addClass('show');
+  });
+
+  $('#editBtn').on('click', function(){
+    $('#previewBox').removeClass('show');
+    $('#complainForm').show();
+  });
+
+});
+</script>
+</body>
+</html>
