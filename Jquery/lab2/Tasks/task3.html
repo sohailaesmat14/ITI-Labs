@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Task 3 - Scale and Rotate</title>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f8f9fa;
+        margin: 0;
+    }
+    #flower {
+        width: 250px;
+        cursor: pointer;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#flower").click(function(){
+            $({ counter: 0 }).animate({ counter: 360 }, {
+                duration: 2000,
+                step: function(now) {
+                    var scaleValue = 1 + (now / 720);
+                    $("#flower").css({
+                        transform: "rotate(" + now + "deg) scale(" + scaleValue + ")"
+                    });
+                }
+            });
+        });
+    });
+</script>
+</head>
+<body>
+
+    <img id="flower" src="1.jpg" alt="Flowers">
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Task 4 - Draggable & Droppable</title>
+<style>
+    body {
+        font-family: serif;
+        padding: 20px;
+    }
+    h1 {
+        border-bottom: 1px solid #000;
+        padding-bottom: 10px;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+        width: 80%;
+    }
+    #blackhole {
+        width: 400px;
+        height: 400px;
+    }
+    #blackhole img {
+        width: 100%;
+        height: 100%;
+    }
+    #draggable-item {
+        text-align: center;
+        background-color: yellow;
+        padding: 10px;
+        width: 120px;
+        cursor: grab;
+    }
+    #draggable-item img {
+        width: 100px;
+    }
+    #draggable-item p {
+        margin: 5px 0 0 0;
+        font-family: sans-serif;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#draggable-item").draggable({
+            revert: "invalid"
+        });
+
+        $("#blackhole").droppable({
+            accept: "#draggable-item",
+            drop: function(event, ui) {
+                ui.draggable.hide("scale", {percent: 0}, 500);
+            }
+        });
+    });
+</script>
+</head>
+<body>
+
+    <h1>Droppables</h1>
+    
+    <div class="container">
+        <div id="blackhole">
+            <img src="3.JPG" alt="Black Hole">
+        </div>
+        
+        <div id="draggable-item">
+            <img src="2.jpg" alt="Bugs Bunny">
+            <p>Drag Me</p>
+        </div>
+    </div>
+
+</body>
+</html>

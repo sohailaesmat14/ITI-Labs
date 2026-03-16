@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Task 1 - Moving Car</title>
+<style>
+    body {
+        padding: 50px;
+    }
+    #car {
+        position: relative;
+        left: 0px;
+    }
+    #markupText {
+        margin-top: 40px;
+        font-family: monospace;
+        color: darkblue;
+        font-size: 18px;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#car").animate({
+            left: '1000px'
+        }, {
+            duration: 3000,
+            step: function(now) {
+                $("#markupText").text('<img src="12.gif" style="left: ' + Math.round(now) + 'px"/>');
+            }
+        });
+    });
+</script>
+</head>
+<body>
+
+    <img id="car" src="12.gif" alt="Moving Car">
+    <div id="markupText">&lt;img src="12.gif" style="left: 0px"/&gt;</div>
+
+</body>
+</html>
