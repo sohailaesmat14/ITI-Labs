@@ -1,0 +1,4 @@
+Implement linked list for structure student data (name `id )
+ 1- User can add new student 
+ 2- insert in location
+ 3-search by id

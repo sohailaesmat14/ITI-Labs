@@ -1,0 +1,2 @@
+Lab 2:
+1- using stack methods , write 2 functions : - Push_data : a function that push integers into a stack -Pop_data : a function that retrieve data (pop) from the stack and prints "stack is empty" when there r no data in the stack 2- using Queue methods , write 2 functions : function i.e. " insert " into queue integers , such that 5 numbers at most , prints "queue is full " while try to insert the 6 number function i.e. "delete" deletes number from the queue such that u can insert another number after deleting one .
