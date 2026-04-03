@@ -1,0 +1,6 @@
+CREATE PROCEDURE GetAllCourses
+AS
+BEGIN
+    SELECT * FROM Course
+END
+

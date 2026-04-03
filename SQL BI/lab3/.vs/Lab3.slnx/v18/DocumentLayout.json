@@ -1,0 +1,152 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B4D8281-9B9C-65EE-8AD0-80E7683588C4}|Lab3\\Lab3.rptproj|D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\Lab3\\dsDepartments.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{2B4D8281-9B9C-65EE-8AD0-80E7683588C4}|Lab3\\Lab3.rptproj|solutionrelative:Lab3\\dsDepartments.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B4D8281-9B9C-65EE-8AD0-80E7683588C4}|Lab3\\Lab3.rptproj|D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\Lab3\\StudentAges.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{2B4D8281-9B9C-65EE-8AD0-80E7683588C4}|Lab3\\Lab3.rptproj|solutionrelative:Lab3\\StudentAges.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B4D8281-9B9C-65EE-8AD0-80E7683588C4}|Lab3\\Lab3.rptproj|D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\Lab3\\Report5.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{2B4D8281-9B9C-65EE-8AD0-80E7683588C4}|Lab3\\Lab3.rptproj|solutionrelative:Lab3\\Report5.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B4D8281-9B9C-65EE-8AD0-80E7683588C4}|Lab3\\Lab3.rptproj|D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\Lab3\\Report4.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{2B4D8281-9B9C-65EE-8AD0-80E7683588C4}|Lab3\\Lab3.rptproj|solutionrelative:Lab3\\Report4.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B4D8281-9B9C-65EE-8AD0-80E7683588C4}|Lab3\\Lab3.rptproj|D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\Lab3\\SalesChart.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{2B4D8281-9B9C-65EE-8AD0-80E7683588C4}|Lab3\\Lab3.rptproj|solutionrelative:Lab3\\SalesChart.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B4D8281-9B9C-65EE-8AD0-80E7683588C4}|Lab3\\Lab3.rptproj|D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\Lab3\\Report3.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{2B4D8281-9B9C-65EE-8AD0-80E7683588C4}|Lab3\\Lab3.rptproj|solutionrelative:Lab3\\Report3.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B4D8281-9B9C-65EE-8AD0-80E7683588C4}|Lab3\\Lab3.rptproj|D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\Lab3\\Report2.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{2B4D8281-9B9C-65EE-8AD0-80E7683588C4}|Lab3\\Lab3.rptproj|solutionrelative:Lab3\\Report2.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B4D8281-9B9C-65EE-8AD0-80E7683588C4}|Lab3\\Lab3.rptproj|D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\Lab3\\Report1.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{2B4D8281-9B9C-65EE-8AD0-80E7683588C4}|Lab3\\Lab3.rptproj|solutionrelative:Lab3\\Report1.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 273,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dsDepartments.rdl [Design]",
+              "DocumentMoniker": "D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\Lab3\\dsDepartments.rdl",
+              "RelativeDocumentMoniker": "Lab3\\dsDepartments.rdl",
+              "ToolTip": "D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\Lab3\\dsDepartments.rdl [Design]",
+              "RelativeToolTip": "Lab3\\dsDepartments.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-03T12:47:31.083Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentAges.rdl [Design]",
+              "DocumentMoniker": "D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\Lab3\\StudentAges.rdl",
+              "RelativeDocumentMoniker": "Lab3\\StudentAges.rdl",
+              "ToolTip": "D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\Lab3\\StudentAges.rdl [Design]",
+              "RelativeToolTip": "Lab3\\StudentAges.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-03T12:19:44.42Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Report5.rdl [Design]",
+              "DocumentMoniker": "D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\Lab3\\Report5.rdl",
+              "RelativeDocumentMoniker": "Lab3\\Report5.rdl",
+              "ToolTip": "D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\Lab3\\Report5.rdl [Design]",
+              "RelativeToolTip": "Lab3\\Report5.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-03T12:12:57.177Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Report4.rdl [Design]",
+              "DocumentMoniker": "D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\Lab3\\Report4.rdl",
+              "RelativeDocumentMoniker": "Lab3\\Report4.rdl",
+              "ToolTip": "D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\Lab3\\Report4.rdl [Design]",
+              "RelativeToolTip": "Lab3\\Report4.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-03T11:54:49.44Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SalesChart.rdl [Design]",
+              "DocumentMoniker": "D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\Lab3\\SalesChart.rdl",
+              "RelativeDocumentMoniker": "Lab3\\SalesChart.rdl",
+              "ToolTip": "D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\Lab3\\SalesChart.rdl [Design]",
+              "RelativeToolTip": "Lab3\\SalesChart.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-03T11:38:47.334Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Report3.rdl [Design]",
+              "DocumentMoniker": "D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\Lab3\\Report3.rdl",
+              "RelativeDocumentMoniker": "Lab3\\Report3.rdl",
+              "ToolTip": "D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\Lab3\\Report3.rdl [Design]",
+              "RelativeToolTip": "Lab3\\Report3.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-03T11:36:19.299Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Report2.rdl [Design]",
+              "DocumentMoniker": "D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\Lab3\\Report2.rdl",
+              "RelativeDocumentMoniker": "Lab3\\Report2.rdl",
+              "ToolTip": "D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\Lab3\\Report2.rdl [Design]",
+              "RelativeToolTip": "Lab3\\Report2.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-03T11:26:29.581Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Report1.rdl [Design]",
+              "DocumentMoniker": "D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\Lab3\\Report1.rdl",
+              "RelativeDocumentMoniker": "Lab3\\Report1.rdl",
+              "ToolTip": "D:\\ITI\\26.SQL BI\\lab\\lab3\\Lab3\\Lab3\\Report1.rdl [Design]",
+              "RelativeToolTip": "Lab3\\Report1.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-03T10:48:56.68Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

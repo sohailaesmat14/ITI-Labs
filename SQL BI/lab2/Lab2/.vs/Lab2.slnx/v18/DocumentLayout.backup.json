@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ITI\\26.SQL BI\\lab\\lab2\\Lab2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{486A405C-DAB0-E643-AB8C-B8146ACA11D9}|Lab2\\Lab2.dwproj|D:\\ITI\\26.SQL BI\\lab\\lab2\\Lab2\\Lab2\\Prod_Cust Cube.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{486A405C-DAB0-E643-AB8C-B8146ACA11D9}|Lab2\\Lab2.dwproj|solutionrelative:Lab2\\Prod_Cust Cube.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486A405C-DAB0-E643-AB8C-B8146ACA11D9}|Lab2\\Lab2.dwproj|D:\\ITI\\26.SQL BI\\lab\\lab2\\Lab2\\Lab2\\Customer Dim.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{486A405C-DAB0-E643-AB8C-B8146ACA11D9}|Lab2\\Lab2.dwproj|solutionrelative:Lab2\\Customer Dim.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486A405C-DAB0-E643-AB8C-B8146ACA11D9}|Lab2\\Lab2.dwproj|D:\\ITI\\26.SQL BI\\lab\\lab2\\Lab2\\Lab2\\Time Dim.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{486A405C-DAB0-E643-AB8C-B8146ACA11D9}|Lab2\\Lab2.dwproj|solutionrelative:Lab2\\Time Dim.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486A405C-DAB0-E643-AB8C-B8146ACA11D9}|Lab2\\Lab2.dwproj|D:\\ITI\\26.SQL BI\\lab\\lab2\\Lab2\\Lab2\\Sales.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{486A405C-DAB0-E643-AB8C-B8146ACA11D9}|Lab2\\Lab2.dwproj|solutionrelative:Lab2\\Sales.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486A405C-DAB0-E643-AB8C-B8146ACA11D9}|Lab2\\Lab2.dwproj|D:\\ITI\\26.SQL BI\\lab\\lab2\\Lab2\\Lab2\\Product Dim.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{486A405C-DAB0-E643-AB8C-B8146ACA11D9}|Lab2\\Lab2.dwproj|solutionrelative:Lab2\\Product Dim.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486A405C-DAB0-E643-AB8C-B8146ACA11D9}|Lab2\\Lab2.dwproj|D:\\ITI\\26.SQL BI\\lab\\lab2\\Lab2\\Lab2\\Product Cube.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{486A405C-DAB0-E643-AB8C-B8146ACA11D9}|Lab2\\Lab2.dwproj|solutionrelative:Lab2\\Product Cube.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 273,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Prod_Cust Cube.cube [Design]",
+              "DocumentMoniker": "D:\\ITI\\26.SQL BI\\lab\\lab2\\Lab2\\Lab2\\Prod_Cust Cube.cube",
+              "RelativeDocumentMoniker": "Lab2\\Prod_Cust Cube.cube",
+              "ToolTip": "D:\\ITI\\26.SQL BI\\lab\\lab2\\Lab2\\Lab2\\Prod_Cust Cube.cube [Design]",
+              "RelativeToolTip": "Lab2\\Prod_Cust Cube.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-01T13:21:37.855Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Customer Dim.dim [Design]",
+              "DocumentMoniker": "D:\\ITI\\26.SQL BI\\lab\\lab2\\Lab2\\Lab2\\Customer Dim.dim",
+              "RelativeDocumentMoniker": "Lab2\\Customer Dim.dim",
+              "ToolTip": "D:\\ITI\\26.SQL BI\\lab\\lab2\\Lab2\\Lab2\\Customer Dim.dim [Design]",
+              "RelativeToolTip": "Lab2\\Customer Dim.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-01T12:54:02.648Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sales.dsv [Design]",
+              "DocumentMoniker": "D:\\ITI\\26.SQL BI\\lab\\lab2\\Lab2\\Lab2\\Sales.dsv",
+              "RelativeDocumentMoniker": "Lab2\\Sales.dsv",
+              "ToolTip": "D:\\ITI\\26.SQL BI\\lab\\lab2\\Lab2\\Lab2\\Sales.dsv [Design]",
+              "RelativeToolTip": "Lab2\\Sales.dsv [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-01T12:52:02.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Time Dim.dim [Design]",
+              "DocumentMoniker": "D:\\ITI\\26.SQL BI\\lab\\lab2\\Lab2\\Lab2\\Time Dim.dim",
+              "RelativeDocumentMoniker": "Lab2\\Time Dim.dim",
+              "ToolTip": "D:\\ITI\\26.SQL BI\\lab\\lab2\\Lab2\\Lab2\\Time Dim.dim [Design]",
+              "RelativeToolTip": "Lab2\\Time Dim.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-01T11:38:24.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product Dim.dim [Design]",
+              "DocumentMoniker": "D:\\ITI\\26.SQL BI\\lab\\lab2\\Lab2\\Lab2\\Product Dim.dim",
+              "RelativeDocumentMoniker": "Lab2\\Product Dim.dim",
+              "ToolTip": "D:\\ITI\\26.SQL BI\\lab\\lab2\\Lab2\\Lab2\\Product Dim.dim [Design]",
+              "RelativeToolTip": "Lab2\\Product Dim.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-01T11:37:35.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product Cube.cube [Design]",
+              "DocumentMoniker": "D:\\ITI\\26.SQL BI\\lab\\lab2\\Lab2\\Lab2\\Product Cube.cube",
+              "RelativeDocumentMoniker": "Lab2\\Product Cube.cube",
+              "ToolTip": "D:\\ITI\\26.SQL BI\\lab\\lab2\\Lab2\\Lab2\\Product Cube.cube [Design]",
+              "RelativeToolTip": "Lab2\\Product Cube.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-01T11:33:17.352Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 127,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
