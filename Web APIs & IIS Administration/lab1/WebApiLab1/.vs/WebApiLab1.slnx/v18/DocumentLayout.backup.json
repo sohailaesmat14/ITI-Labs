@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab1\\WebApiLab1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA7FA08-3945-49D9-A8F6-79E7E922F769}|CourseClient\\CourseClient.csproj|d:\\iti\\31.web apis \u0026 iis administration\\lab\\lab1\\webapilab1\\courseclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA7FA08-3945-49D9-A8F6-79E7E922F769}|CourseClient\\CourseClient.csproj|solutionrelative:courseclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA7FA08-3945-49D9-A8F6-79E7E922F769}|CourseClient\\CourseClient.csproj|d:\\iti\\31.web apis \u0026 iis administration\\lab\\lab1\\webapilab1\\courseclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3BA7FA08-3945-49D9-A8F6-79E7E922F769}|CourseClient\\CourseClient.csproj|solutionrelative:courseclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA7FA08-3945-49D9-A8F6-79E7E922F769}|CourseClient\\CourseClient.csproj|d:\\iti\\31.web apis \u0026 iis administration\\lab\\lab1\\webapilab1\\courseclient\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA7FA08-3945-49D9-A8F6-79E7E922F769}|CourseClient\\CourseClient.csproj|solutionrelative:courseclient\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AB5C0B1-4E08-DB26-F9A3-371AADAC54D2}|WebApiLab1\\WebApiLab1.csproj|d:\\iti\\31.web apis \u0026 iis administration\\lab\\lab1\\webapilab1\\webapilab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AB5C0B1-4E08-DB26-F9A3-371AADAC54D2}|WebApiLab1\\WebApiLab1.csproj|solutionrelative:webapilab1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AB5C0B1-4E08-DB26-F9A3-371AADAC54D2}|WebApiLab1\\WebApiLab1.csproj|d:\\iti\\31.web apis \u0026 iis administration\\lab\\lab1\\webapilab1\\webapilab1\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AB5C0B1-4E08-DB26-F9A3-371AADAC54D2}|WebApiLab1\\WebApiLab1.csproj|solutionrelative:webapilab1\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 273,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab1\\WebApiLab1\\CourseClient\\Form1.cs",
+              "RelativeDocumentMoniker": "CourseClient\\Form1.cs",
+              "ToolTip": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab1\\WebApiLab1\\CourseClient\\Form1.cs [Design]",
+              "RelativeToolTip": "CourseClient\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T19:46:35.231Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab1\\WebApiLab1\\CourseClient\\Form1.cs",
+              "RelativeDocumentMoniker": "CourseClient\\Form1.cs",
+              "ToolTip": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab1\\WebApiLab1\\CourseClient\\Form1.cs",
+              "RelativeToolTip": "CourseClient\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T19:44:43.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab1\\WebApiLab1\\CourseClient\\Course.cs",
+              "RelativeDocumentMoniker": "CourseClient\\Course.cs",
+              "ToolTip": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab1\\WebApiLab1\\CourseClient\\Course.cs",
+              "RelativeToolTip": "CourseClient\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T19:43:56.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab1\\WebApiLab1\\WebApiLab1\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "WebApiLab1\\Controllers\\CoursesController.cs",
+              "ToolTip": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab1\\WebApiLab1\\WebApiLab1\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "WebApiLab1\\Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T18:25:05.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab1\\WebApiLab1\\WebApiLab1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApiLab1\\Program.cs",
+              "ToolTip": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab1\\WebApiLab1\\WebApiLab1\\Program.cs",
+              "RelativeToolTip": "WebApiLab1\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T18:23:03.145Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

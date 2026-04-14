@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CourseClient/CourseClient.csproj" Id="3ba7fa08-3945-49d9-a8f6-79e7e922f769" />
+  <Project Path="WebApiLab1/WebApiLab1.csproj" />
+</Solution>
