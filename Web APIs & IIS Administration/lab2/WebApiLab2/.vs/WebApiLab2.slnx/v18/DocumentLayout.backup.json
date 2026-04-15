@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab2\\WebApiLab2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3AA2B7-52AA-452F-9260-3841B7589B37}|WebApiLab2\\WebApiLab2.csproj|d:\\iti\\31.web apis \u0026 iis administration\\lab\\lab2\\webapilab2\\webapilab2\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3AA2B7-52AA-452F-9260-3841B7589B37}|WebApiLab2\\WebApiLab2.csproj|solutionrelative:webapilab2\\dtos\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3AA2B7-52AA-452F-9260-3841B7589B37}|WebApiLab2\\WebApiLab2.csproj|d:\\iti\\31.web apis \u0026 iis administration\\lab\\lab2\\webapilab2\\webapilab2\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3AA2B7-52AA-452F-9260-3841B7589B37}|WebApiLab2\\WebApiLab2.csproj|solutionrelative:webapilab2\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3AA2B7-52AA-452F-9260-3841B7589B37}|WebApiLab2\\WebApiLab2.csproj|d:\\iti\\31.web apis \u0026 iis administration\\lab\\lab2\\webapilab2\\webapilab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3AA2B7-52AA-452F-9260-3841B7589B37}|WebApiLab2\\WebApiLab2.csproj|solutionrelative:webapilab2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab2\\WebApiLab2\\WebApiLab2\\Models\\ItiContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApiLab2\\Models\\ItiContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3AA2B7-52AA-452F-9260-3841B7589B37}|WebApiLab2\\WebApiLab2.csproj|d:\\iti\\31.web apis \u0026 iis administration\\lab\\lab2\\webapilab2\\webapilab2\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3AA2B7-52AA-452F-9260-3841B7589B37}|WebApiLab2\\WebApiLab2.csproj|solutionrelative:webapilab2\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F3AA2B7-52AA-452F-9260-3841B7589B37}|WebApiLab2\\WebApiLab2.csproj|d:\\iti\\31.web apis \u0026 iis administration\\lab\\lab2\\webapilab2\\webapilab2\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F3AA2B7-52AA-452F-9260-3841B7589B37}|WebApiLab2\\WebApiLab2.csproj|solutionrelative:webapilab2\\dtos\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 273,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab2\\WebApiLab2\\WebApiLab2\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "WebApiLab2\\Controllers\\StudentsController.cs",
+              "ToolTip": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab2\\WebApiLab2\\WebApiLab2\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "WebApiLab2\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T21:51:48.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab2\\WebApiLab2\\WebApiLab2\\Program.cs",
+              "RelativeDocumentMoniker": "WebApiLab2\\Program.cs",
+              "ToolTip": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab2\\WebApiLab2\\WebApiLab2\\Program.cs",
+              "RelativeToolTip": "WebApiLab2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T21:38:26.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab2\\WebApiLab2\\WebApiLab2\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "WebApiLab2\\Mapping\\MappingProfile.cs",
+              "ToolTip": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab2\\WebApiLab2\\WebApiLab2\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "WebApiLab2\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T21:34:32.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItiContext.cs",
+              "DocumentMoniker": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab2\\WebApiLab2\\WebApiLab2\\Models\\ItiContext.cs",
+              "RelativeDocumentMoniker": "WebApiLab2\\Models\\ItiContext.cs",
+              "ToolTip": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab2\\WebApiLab2\\WebApiLab2\\Models\\ItiContext.cs",
+              "RelativeToolTip": "WebApiLab2\\Models\\ItiContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T21:30:55.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentDTO.cs",
+              "DocumentMoniker": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab2\\WebApiLab2\\WebApiLab2\\DTOs\\StudentDTO.cs",
+              "RelativeDocumentMoniker": "WebApiLab2\\DTOs\\StudentDTO.cs",
+              "ToolTip": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab2\\WebApiLab2\\WebApiLab2\\DTOs\\StudentDTO.cs*",
+              "RelativeToolTip": "WebApiLab2\\DTOs\\StudentDTO.cs*",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T21:32:40.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DepartmentDTO.cs",
+              "DocumentMoniker": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab2\\WebApiLab2\\WebApiLab2\\DTOs\\DepartmentDTO.cs",
+              "RelativeDocumentMoniker": "WebApiLab2\\DTOs\\DepartmentDTO.cs",
+              "ToolTip": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab2\\WebApiLab2\\WebApiLab2\\DTOs\\DepartmentDTO.cs",
+              "RelativeToolTip": "WebApiLab2\\DTOs\\DepartmentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T21:33:15.443Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

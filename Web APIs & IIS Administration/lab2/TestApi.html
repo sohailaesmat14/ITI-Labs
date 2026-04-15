@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ITI API Test</title>
+</head>
+<body>
+    <h2>Test ITI Students API</h2>
+    <button onclick="getStudents()">student data Plz</button>
+    <ul id="studentsList"></ul>
+
+    <script>
+        function getStudents() {
+
+            fetch('https://localhost:7284/api/Students') 
+                .then(response => response.json())
+                .then(data => {
+                    console.log("Data Received:", data);                     
+                    const list = document.getElementById('studentsList');
+                    list.innerHTML = ''; 
+                    data.forEach(student => {
+                        let li = document.createElement('li');
+                        li.innerText = "Student Name " + student.stFname + " | Department " + student.departmentName;
+                        list.appendChild(li);
+                    });
+                })
+                .catch(error => alert("Error: " + error));
+        }
+    </script>
+</body>
+</html>
