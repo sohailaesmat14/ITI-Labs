@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab3\\WebApiLab3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C9B4B06-DE2D-2CE9-7AB2-793AE79FF40F}|WebApiLab3\\WebApiLab3.csproj|d:\\iti\\31.web apis \u0026 iis administration\\lab\\lab3\\webapilab3\\webapilab3\\webapilab3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1C9B4B06-DE2D-2CE9-7AB2-793AE79FF40F}|WebApiLab3\\WebApiLab3.csproj|solutionrelative:webapilab3\\webapilab3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C9B4B06-DE2D-2CE9-7AB2-793AE79FF40F}|WebApiLab3\\WebApiLab3.csproj|d:\\iti\\31.web apis \u0026 iis administration\\lab\\lab3\\webapilab3\\webapilab3\\models\\iticontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C9B4B06-DE2D-2CE9-7AB2-793AE79FF40F}|WebApiLab3\\WebApiLab3.csproj|solutionrelative:webapilab3\\models\\iticontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C9B4B06-DE2D-2CE9-7AB2-793AE79FF40F}|WebApiLab3\\WebApiLab3.csproj|d:\\iti\\31.web apis \u0026 iis administration\\lab\\lab3\\webapilab3\\webapilab3\\controllers\\accountcontroller.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C9B4B06-DE2D-2CE9-7AB2-793AE79FF40F}|WebApiLab3\\WebApiLab3.csproj|solutionrelative:webapilab3\\controllers\\accountcontroller.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C9B4B06-DE2D-2CE9-7AB2-793AE79FF40F}|WebApiLab3\\WebApiLab3.csproj|d:\\iti\\31.web apis \u0026 iis administration\\lab\\lab3\\webapilab3\\webapilab3\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C9B4B06-DE2D-2CE9-7AB2-793AE79FF40F}|WebApiLab3\\WebApiLab3.csproj|solutionrelative:webapilab3\\dtos\\authdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C9B4B06-DE2D-2CE9-7AB2-793AE79FF40F}|WebApiLab3\\WebApiLab3.csproj|d:\\iti\\31.web apis \u0026 iis administration\\lab\\lab3\\webapilab3\\webapilab3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C9B4B06-DE2D-2CE9-7AB2-793AE79FF40F}|WebApiLab3\\WebApiLab3.csproj|solutionrelative:webapilab3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C9B4B06-DE2D-2CE9-7AB2-793AE79FF40F}|WebApiLab3\\WebApiLab3.csproj|d:\\iti\\31.web apis \u0026 iis administration\\lab\\lab3\\webapilab3\\webapilab3\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C9B4B06-DE2D-2CE9-7AB2-793AE79FF40F}|WebApiLab3\\WebApiLab3.csproj|solutionrelative:webapilab3\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 273,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebApiLab3.csproj",
+              "DocumentMoniker": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab3\\WebApiLab3\\WebApiLab3\\WebApiLab3.csproj",
+              "RelativeDocumentMoniker": "WebApiLab3\\WebApiLab3.csproj",
+              "ToolTip": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab3\\WebApiLab3\\WebApiLab3\\WebApiLab3.csproj",
+              "RelativeToolTip": "WebApiLab3\\WebApiLab3.csproj",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-18T12:45:59.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItiContext.cs",
+              "DocumentMoniker": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab3\\WebApiLab3\\WebApiLab3\\Models\\ItiContext.cs",
+              "RelativeDocumentMoniker": "WebApiLab3\\Models\\ItiContext.cs",
+              "ToolTip": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab3\\WebApiLab3\\WebApiLab3\\Models\\ItiContext.cs",
+              "RelativeToolTip": "WebApiLab3\\Models\\ItiContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T11:45:46.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs.cs",
+              "DocumentMoniker": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab3\\WebApiLab3\\WebApiLab3\\Controllers\\AccountController.cs.cs",
+              "RelativeDocumentMoniker": "WebApiLab3\\Controllers\\AccountController.cs.cs",
+              "ToolTip": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab3\\WebApiLab3\\WebApiLab3\\Controllers\\AccountController.cs.cs",
+              "RelativeToolTip": "WebApiLab3\\Controllers\\AccountController.cs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T12:05:27.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthDTOs.cs",
+              "DocumentMoniker": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab3\\WebApiLab3\\WebApiLab3\\DTOs\\AuthDTOs.cs",
+              "RelativeDocumentMoniker": "WebApiLab3\\DTOs\\AuthDTOs.cs",
+              "ToolTip": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab3\\WebApiLab3\\WebApiLab3\\DTOs\\AuthDTOs.cs",
+              "RelativeToolTip": "WebApiLab3\\DTOs\\AuthDTOs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T12:04:19.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab3\\WebApiLab3\\WebApiLab3\\Program.cs",
+              "RelativeDocumentMoniker": "WebApiLab3\\Program.cs",
+              "ToolTip": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab3\\WebApiLab3\\WebApiLab3\\Program.cs",
+              "RelativeToolTip": "WebApiLab3\\Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAC8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T11:26:25.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab3\\WebApiLab3\\WebApiLab3\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "WebApiLab3\\Mapping\\MappingProfile.cs",
+              "ToolTip": "D:\\ITI\\31.Web APIs \u0026 IIS Administration\\lab\\lab3\\WebApiLab3\\WebApiLab3\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "WebApiLab3\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T11:41:03.739Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

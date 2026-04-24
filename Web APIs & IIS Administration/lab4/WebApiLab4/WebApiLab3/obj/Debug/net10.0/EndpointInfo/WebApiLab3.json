@@ -1,0 +1,506 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "WebApiLab3",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Account/Register": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Account/Login": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Students": {
+      "get": {
+        "tags": [
+          "Students"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Students"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Student"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Student"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Student"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Students/{id}": {
+      "get": {
+        "tags": [
+          "Students"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Course": {
+        "type": "object",
+        "properties": {
+          "crsId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "crsName": {
+            "type": "string",
+            "nullable": true
+          },
+          "crsDuration": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "topId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "insCourses": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/InsCourse"
+            },
+            "nullable": true
+          },
+          "studCourses": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/StudCourse"
+            },
+            "nullable": true
+          },
+          "top": {
+            "$ref": "#/components/schemas/Topic"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Department": {
+        "type": "object",
+        "properties": {
+          "deptId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "deptName": {
+            "type": "string",
+            "nullable": true
+          },
+          "deptDesc": {
+            "type": "string",
+            "nullable": true
+          },
+          "deptLocation": {
+            "type": "string",
+            "nullable": true
+          },
+          "deptManager": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "managerHiredate": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "deptManagerNavigation": {
+            "$ref": "#/components/schemas/Instructor"
+          },
+          "instructors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Instructor"
+            },
+            "nullable": true
+          },
+          "students": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Student"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "InsCourse": {
+        "type": "object",
+        "properties": {
+          "insId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "crsId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "evaluation": {
+            "type": "string",
+            "nullable": true
+          },
+          "crs": {
+            "$ref": "#/components/schemas/Course"
+          },
+          "ins": {
+            "$ref": "#/components/schemas/Instructor"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Instructor": {
+        "type": "object",
+        "properties": {
+          "insId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "insName": {
+            "type": "string",
+            "nullable": true
+          },
+          "insDegree": {
+            "type": "string",
+            "nullable": true
+          },
+          "salary": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "deptId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "departments": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Department"
+            },
+            "nullable": true
+          },
+          "dept": {
+            "$ref": "#/components/schemas/Department"
+          },
+          "insCourses": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/InsCourse"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginDTO": {
+        "type": "object",
+        "properties": {
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RegisterDTO": {
+        "type": "object",
+        "properties": {
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "StudCourse": {
+        "type": "object",
+        "properties": {
+          "crsId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "stId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "grade": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "crs": {
+            "$ref": "#/components/schemas/Course"
+          },
+          "st": {
+            "$ref": "#/components/schemas/Student"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Student": {
+        "type": "object",
+        "properties": {
+          "stId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "stFname": {
+            "type": "string",
+            "nullable": true
+          },
+          "stLname": {
+            "type": "string",
+            "nullable": true
+          },
+          "stAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "stAge": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "deptId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "stSuper": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "dept": {
+            "$ref": "#/components/schemas/Department"
+          },
+          "inverseStSuperNavigation": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Student"
+            },
+            "nullable": true
+          },
+          "stSuperNavigation": {
+            "$ref": "#/components/schemas/Student"
+          },
+          "studCourses": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/StudCourse"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Topic": {
+        "type": "object",
+        "properties": {
+          "topId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "topName": {
+            "type": "string",
+            "nullable": true
+          },
+          "courses": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Course"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Account"
+    },
+    {
+      "name": "Students"
+    },
+    {
+      "name": "WeatherForecast"
+    }
+  ]
+}
